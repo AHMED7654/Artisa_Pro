@@ -680,6 +680,12 @@ body {
     align-items: flex-start;
   }
 }
+.dev {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: #8fa2d9;
+}
+
 
 @media (max-width: 480px) {
   .container {
@@ -699,3 +705,4 @@ body {
     padding-inline: 1.1rem;
   }
 }
+
