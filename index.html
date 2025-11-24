@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArtisaPro – Plateforme pour Artisans</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header" id="top">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">A</span>
+        <span class="logo-text">Artisa<span>Pro</span></span>
+      </div>
+
+      <nav class="nav" id="nav">
+        <a href="#hero">Accueil</a>
+        <a href="#features">Fonctionnalités</a>
+        <a href="#pricing">Tarifs</a>
+        <a href="#about">Projet</a>
+        <a href="#contact" class="nav-cta">Demo</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Digitalisez votre activité artisanale avec <span>ArtisaPro</span>.</h1>
+        <p>
+          Gérez vos devis, factures, rendez-vous et clients depuis une seule
+          plateforme simple, moderne et accessible depuis votre téléphone.
+        </p>
+        <div class="hero-actions">
+          <a href="#pricing" class="btn btn-primary">Voir les tarifs</a>
+          <a href="#features" class="btn btn-outline">Découvrir les avantages</a>
+        </div>
+        <div class="hero-badges">
+          <span>✅ Compatible mobile</span>
+          <span>✅ Essai gratuit</span>
+          <span>✅ Pensé pour les artisans</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-header">
+          <h2>Tableau de bord – ArtisaPro</h2>
+          <span class="status">En ligne</span>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-label">Devis du mois</span>
+            <span class="stat-value">24</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Factures payées</span>
+            <span class="stat-value stat-positive">+18</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Rendez-vous à venir</span>
+            <span class="stat-value">7</span>
+          </div>
+        </div>
+        <div class="hero-timeline">
+          <p class="timeline-title">Aujourd’hui</p>
+          <ul>
+            <li><span class="dot dot-green"></span> Devis envoyé à “Client A”.</li>
+            <li><span class="dot dot-blue"></span> Rendez-vous confirmé 15:30.</li>
+            <li><span class="dot dot-yellow"></span> Rappel paiement “Client B”.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section" id="features">
+    <div class="container">
+      <h2 class="section-title">Pourquoi ArtisaPro ?</h2>
+      <p class="section-subtitle">
+        Une solution pensée pour les artisans, les petites entreprises de services
+        et les micro-entrepreneurs.
+      </p>
+
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">📄</div>
+          <h3>Automatisation</h3>
+          <p>
+            Créez vos devis et factures en quelques clics, envoyez-les par email
+            ou WhatsApp et suivez les paiements en temps réel.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">📅</div>
+          <h3>Organisation</h3>
+          <p>
+            Un calendrier intégré pour planifier vos chantiers, rendez-vous et
+            relances clients, avec des rappels automatiques.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3>Visibilité</h3>
+          <p>
+            Un profil public professionnel, vos réalisations, vos avis clients
+            et une recherche locale pour vous trouver facilement.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Suivi & Statistiques</h3>
+          <p>
+            Visualisez vos revenus, devis acceptés, factures en retard et
+            performances mensuelles en un coup d’œil.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section section-alt" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Des tarifs simples et adaptés</h2>
+      <p class="section-subtitle">
+        Deux offres claires pour démarrer : l’essentiel ou la visibilité renforcée.
+      </p>
+
+      <div class="pricing-grid">
+        <article class="price-card">
+          <h3>Basic</h3>
+          <p class="price-tag"><span>20</span> DT / mois</p>
+          <ul class="price-list">
+            <li>✔ Devis & factures illimités</li>
+            <li>✔ Calendrier & rappels</li>
+            <li>✔ Gestion de base des clients</li>
+            <li>✔ Accès multi-appareils</li>
+          </ul>
+          <button class="btn btn-outline full-width">Idéal pour débuter</button>
+        </article>
+
+        <article class="price-card price-card-featured">
+          <div class="badge">Populaire</div>
+          <h3>Premium</h3>
+          <p class="price-tag"><span>30</span> DT / mois</p>
+          <ul class="price-list">
+            <li>✔ Tout le plan Basic</li>
+            <li>✔ Profil public optimisé</li>
+            <li>✔ Priorité dans la recherche locale</li>
+            <li>✔ Support prioritaire</li>
+          </ul>
+          <button class="btn btn-primary full-width">Pour développer votre activité</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / PROJET -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div>
+        <h2 class="section-title">Le projet ArtisaPro</h2>
+        <p>
+          ArtisaPro est un projet académique et professionnel qui vise à
+          digitaliser la gestion des artisans et des petites entreprises de
+          services. L’objectif est de proposer une plateforme intuitive,
+          mobile-first, et adaptée au contexte tunisien.
+        </p>
+        <p>
+          À travers ce projet, nous explorons le business model, l’étude de
+          marché, la stratégie d’entrée sur le marché et l’architecture
+          technique d’une vraie solution SaaS.
+        </p>
+      </div>
+      <div class="about-highlights">
+        <div class="highlight">
+          <span class="highlight-label">Cible</span>
+          <span class="highlight-value">Artisans & TPE</span>
+        </div>
+        <div class="highlight">
+          <span class="highlight-label">Forme juridique</span>
+          <span class="highlight-value">SUARL</span>
+        </div>
+        <div class="highlight">
+          <span class="highlight-label">Technologies</span>
+          <span class="highlight-value">Front web responsive</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / DEMO -->
+  <section class="section section-alt" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <h2 class="section-title">Demander une démonstration</h2>
+        <p class="section-subtitle">
+          Ce formulaire est symbolique pour la démonstration : il illustre la
+          manière dont un artisan peut demander un accompagnement.
+        </p>
+
+        <form class="contact-form" onsubmit="handleDemoRequest(event)">
+          <div class="form-group">
+            <label for="name">Nom & Prénom</label>
+            <input type="text" id="name" placeholder="Ex : Ahmed Ben Ali" required />
+          </div>
+          <div class="form-group">
+            <label for="activity">Métier / Activité</label>
+            <input type="text" id="activity" placeholder="Menuisier, Plombier, ..." required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="vous@example.com" required />
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            Envoyer la demande
+          </button>
+          <p class="form-message" id="formMessage"></p>
+        </form>
+      </div>
+
+      <div class="contact-card">
+        <h3>Informations projet</h3>
+        <ul>
+          <li><strong>Nom du projet :</strong> ArtisaPro</li>
+          <li><strong>Type :</strong> Plateforme SaaS pour artisans</li>
+          <li><strong>Objectif :</strong> Moderniser la gestion quotidienne</li>
+          <li><strong>Statut :</strong> Prototype front-end (démo)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> ArtisaPro – Projet académique.</p>
+      <a href="#top" class="back-to-top">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
